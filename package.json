@@ -1,0 +1,56 @@
+{
+  "name": "quasar-ssg-helper",
+  "version": "0.0.1",
+  "description": "A simple SSG module for Quasar Framework",
+  "author": "Clazex <clazex.y@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "qssg": "./main.js"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "semistandard",
+    "fix": "npm run lint -- --fix",
+    "cz": "cz"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dedent": "^0.7.0",
+    "fs-extra": "^9.1.0",
+    "portfinder": "^1.0.28"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "semistandard": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clazex/quasar-ssg-helper"
+  },
+  "homepage": "https://github.com/Clazex/quasar-ssg-helper#readme",
+  "bugs": {
+    "url": "https://github.com/Clazex/quasar-ssg-helper/issues"
+  },
+  "files": [
+    "/*.js"
+  ],
+  "engines": {
+    "node": ">=14",
+    "npm": "^6 || >=7.1.2"
+  },
+  "keywords": [
+    "ssg",
+    "quasar",
+    "website",
+    "static",
+    "generator",
+    "vuejs",
+    "vue",
+    "js",
+    "ssr",
+    "utils",
+    "utilities",
+    "promise"
+  ]
+}
