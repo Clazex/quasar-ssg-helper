@@ -17,7 +17,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dedent": "^0.7.0",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "portfinder": "^1.0.28"
   },
   "devDependencies": {
