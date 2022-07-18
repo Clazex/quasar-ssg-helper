@@ -21,7 +21,7 @@
     "portfinder": "^1.0.28"
   },
   "devDependencies": {
-    "commitizen": "^4.2.3",
+    "commitizen": "^4.2.5",
     "semistandard": "^16.0.0"
   },
   "repository": {
